@@ -1,5 +1,5 @@
 .universal {
-    padding: 20px 120px 20px 120px;
+    padding: 5px 120px 5px 120px;
 }
 
 .left-right-sides {
@@ -15,7 +15,8 @@
 .card {
     background-color: lightgrey;
     border-radius: 7px;
-    padding: 20px 250px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    flex: 1;
 }
 
 .right-side {
@@ -52,7 +53,23 @@
 input {
     border-radius: 5px;
     padding: 5px;
+}
 
+button {
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+button.selected {
+    background-color: lightblue;
+}
+
+button.selected1 {
+    background-color: lightblue;
 }
 
 .save-btn {
@@ -102,6 +119,11 @@ input {
     width: 120px;
 }
 
+.category-label span:last-child {
+    width: 80px;
+    text-align: right;
+}
+
 .grid button.selected {
     background-color: lightblue;
 }
@@ -119,4 +141,11 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.left-expense {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
